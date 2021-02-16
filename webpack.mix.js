@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const mix = require('laravel-mix');
 require('laravel-mix-merge-manifest');
 
@@ -9,3 +10,16 @@ mix.js(__dirname + '/Resources/assets/js/app.js', 'js/forum.js')
 if (mix.inProduction()) {
     mix.version();
 }
+=======
+const mix = require('laravel-mix');
+require('laravel-mix-merge-manifest');
+
+mix.setPublicPath('../../public').mergeManifest();
+
+mix.js(__dirname + '/Resources/assets/js/app.js', 'js/forum.js')
+    .sass( __dirname + '/Resources/assets/sass/app.scss', 'css/forum.css');
+
+if (mix.inProduction()) {
+    mix.version();
+}
+>>>>>>> 2247733 (first)
