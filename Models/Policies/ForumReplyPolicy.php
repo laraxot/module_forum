@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 <?php
+
+declare(strict_types=1);
 
 namespace Modules\Forum\Models\Policies;
 
@@ -7,13 +8,3 @@ use Modules\Xot\Models\Policies\XotBasePolicy;
 
 class ForumReplyPolicy extends XotBasePolicy {
 }
-=======
-<?php
-
-namespace Modules\Forum\Models\Policies;
-
-use Modules\Xot\Models\Policies\XotBasePolicy;
-
-class ForumReplyPolicy extends XotBasePolicy {
-}
->>>>>>> 2247733 (first)

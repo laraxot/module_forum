@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 {
     "name": "laraxot/module_forum",
     "description": "",
-    "authors": [
-        {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Nicolas Widart",
+        "email": "n.widart@gmail.com"
+    }],
     "extra": {
         "laravel": {
             "providers": [
@@ -24,30 +21,3 @@
         }
     }
 }
-=======
-{
-    "name": "laraxot/module_forum",
-    "description": "",
-    "authors": [
-        {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
-        }
-    ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Modules\\Forum\\Providers\\ForumServiceProvider"
-            ],
-            "aliases": {
-
-            }
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Modules\\Forum\\": ""
-        }
-    }
-}
->>>>>>> 2247733 (first)

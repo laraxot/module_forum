@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 <?php
+
+declare(strict_types=1);
 
 return [
     'name' => 'Forum',
 ];
-=======
-<?php
-
-return [
-    'name' => 'Forum',
-];
->>>>>>> 2247733 (first)

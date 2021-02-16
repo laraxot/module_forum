@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "name": "Forum",
     "alias": "forum",
@@ -13,19 +12,3 @@
     "files": [],
     "requires": []
 }
-=======
-{
-    "name": "Forum",
-    "alias": "forum",
-    "description": "",
-    "keywords": [],
-    "active": 1,
-    "order": 0,
-    "providers": [
-        "Modules\\Forum\\Providers\\ForumServiceProvider"
-    ],
-    "aliases": {},
-    "files": [],
-    "requires": []
-}
->>>>>>> 2247733 (first)
